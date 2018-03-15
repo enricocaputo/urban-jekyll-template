@@ -1,3 +1,5 @@
 backend:
   name: github
   repo: owner-name/repo-name # Path to your Github repository
+
+media_folder: "images/uploads"
