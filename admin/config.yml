@@ -1,6 +1,8 @@
 backend:
-  name: github
-  repo: owner-name/repo-name # Path to your Github repository
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - owner
 
 media_folder: "images/uploads"
       
